@@ -26,13 +26,17 @@ angular.module('therapiepapstApp')
           longitude: 14.280145
         },
         options: {
-          icon: 'favicon.ico'
+          icon: 'favicon.ico',
+          title: 'Therapie Papst - Praxis'
         }
       },
-  		options: {
-        //options: SATELLITE, ROADMAP, HYBRID, TERRAIN
-  			mapTypeId: google.maps.MapTypeId.HYBRID,
-  			mapTypeControl: true
+
+      //options: SATELLITE, ROADMAP, HYBRID, TERRAIN
+      mapTypeIdWorkaround: 'google.maps.MapTypeId.SATELLITE',
+
+      options: {
+  			mapTypeId: this.map.mapTypeIdWorkaround,
+        mapTypeControl: true
   		},
     	zoom: 18
     };
