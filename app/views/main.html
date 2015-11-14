@@ -1,20 +1,61 @@
 <style>
-.angular-google-map-container { 
-  height: 400px; 
-}
+  .angular-google-map-container {
+    height: 600px;
+    /*position : absolute;
+    width: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;*/
+  }
+
+  /* i want to make the map as wide as the screen
+  .div-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  } */
+
 </style>
 
 <div class="jumbotron">
-  <h1 style="font-size:2em;">So finden Sie uns</h1>
-  <p class="lead">
-    
-  </p>
+  <div class="container">
 
-  <ui-gmap-google-map 
-    center='main.map.center'
-    zoom='main.map.zoom'
-    options='main.map.options'>
-    <ui-gmap-marker coords="main.map.center" idKey="1">
-    </ui-gmap-marker>
-  </ui-gmap-google-map>
+    <p class="lead">
+
+      <!--<h1 style="...">Check it out</h1>-->
+      <!--<img src="images/vk_472_343.png" alt="Visitenkarte Therapie Papst"/> -->
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          srcset="images/vk_944_685.png">
+        <source
+          media="(min-width: 1050px)"
+          srcset="images/vk_755_548.png">
+        <source
+          media="(min-width: 700px)"
+          srcset="images/vk_566_411.png">
+        <source
+          media="(min-width: 600px)"
+          srcset="images/vk_472_343.png">
+        <source
+          media="(min-width: 500px)"
+          srcset="images/vk_378_274.png">
+        <img
+          src="images/vk_189_137.png"
+          alt="Therapie Papst">
+      </picture>
+
+    </p>
+    <h2 style="font-size:2em;">Praxis</h2>
+
+   <!-- <div class="div-wrapper">-->
+      <ui-gmap-google-map
+        center='main.map.center'
+        zoom='main.map.zoom'
+        options='main.map.options'>
+        <ui-gmap-marker coords="main.map.marker.center" idKey="1" options="main.map.marker.options"/>
+      </ui-gmap-google-map>
+    <!--</div>-->
+  </div>
 </div>

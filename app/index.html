@@ -5,7 +5,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    
+
     <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -36,7 +36,11 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">Therapie Papst</a>
+            <a class="navbar-brand" href="#/">
+              <img style="max-height: 36px; margin-top: -10px; display: inline-block;"
+               src="images/logo_nav.png" alt="Logo Therapie Papst" >
+              Therapie Papst
+            </a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
@@ -49,12 +53,25 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- Disabled container div to make jumbotron fill full width of screen -->
+    <!--<div class="container">-->
     <div ng-view=""></div>
-    </div>
+   <!-- </div> -->
 
     <div class="footer">
-      <div class="container">
+      <div class="container" align="center">
+        <p>
+            Carmen Papst, Psychotherapeutin <br />
+            In Ausbildung unter Supervision <br />
+            (Systemische Familientherapie)
+        </p>
+        <p>
+          Rosenauerstrasse 2<br />
+          4040 Linz<br />
+          0650 / 5633002<br />
+          praxis (at) therapie-papst.at<br />
+          www.therapie-papst.at
+        </p>
       </div>
     </div>
 
@@ -68,6 +85,7 @@
 
        ga('create', 'UA-XXXXX-X');
        ga('send', 'pageview');
+
     </script>
 
     <!-- build:js(.) scripts/vendor.js -->

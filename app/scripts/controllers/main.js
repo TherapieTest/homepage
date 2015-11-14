@@ -15,15 +15,25 @@ angular.module('therapiepapstApp')
       'Karma'
     ];
 
-    this.map = { 
-    	center: { 
-    		latitude: 48.315545, 
-    		longitude: 14.280145 
+    this.map = {
+    	center: {
+    		latitude: 48.315545,
+    		longitude: 14.280145
     	},
-		options: {
-			mapTypeId: google.maps.MapTypeId.SATELLITE,
-			mapTypeControl: true
-		},
+      marker: {
+        center: {
+          latitude: 48.315545,
+          longitude: 14.280145
+        },
+        options: {
+          icon: 'favicon.ico'
+        }
+      },
+  		options: {
+        //options: SATELLITE, ROADMAP, HYBRID, TERRAIN
+  			mapTypeId: google.maps.MapTypeId.HYBRID,
+  			mapTypeControl: true
+  		},
     	zoom: 18
     };
 

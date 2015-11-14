@@ -45,6 +45,8 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background: rgb(200, 200, 200);
+  background: rgba(200, 200, 200, 0.5);
 }
 .jumbotron .btn {
   font-size: 21px;
@@ -59,10 +61,11 @@ body {
   margin-top: 28px;
 }
 
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 1700px;
   }
 
   /* Remove the padding we set earlier */
