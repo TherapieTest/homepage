@@ -27,7 +27,7 @@ angular.module('therapiepapstApp')
         },
         options: {
           //icon: 'favicon.ico',
-          icon: 'images/logo.png',
+          //icon: 'images/logo.png',
           title: 'Therapie Papst - Praxis'
         }
       },
