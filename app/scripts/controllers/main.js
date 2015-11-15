@@ -16,10 +16,10 @@ angular.module('therapiepapstApp')
     ];
 
     this.map = {
-    	center: {
-    		latitude: 48.315545,
-    		longitude: 14.280145
-    	},
+      center: {
+        latitude: 48.315545,
+        longitude: 14.280145
+      },
       marker: {
         center: {
           latitude: 48.315545,
@@ -36,11 +36,20 @@ angular.module('therapiepapstApp')
       //mapTypeIdWorkaround: 'google.maps.MapTypeId.SATELLITE',
 
       options: {
-  			//mapTypeId: this.map.mapTypeIdWorkaround,
+        //mapTypeId: this.map.mapTypeIdWorkaround,
         //mapTypeId: 'google.maps.MapTypeId.SATELLITE',
-        mapTypeControl: true
-  		},
-    	zoom: 18
+        mapTypeControl: true,
+        styles: [
+          {
+            featureType: 'poi',
+            //elementType: 'labels',
+            stylers: [
+              {visibility: 'off'}
+            ]
+          }
+        ]
+      },
+      zoom: 18,
     };
 
   });

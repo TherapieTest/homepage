@@ -4,17 +4,22 @@
   <meta charset="utf-8">
   <title></title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+
 
   <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
   <!-- bower:css -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/owl.transitions.css">
+  <link rel="stylesheet" href="styles/owl.carousel.css">
+  <link rel="stylesheet" href="styles/capture-theme.css">
+  <link rel="stylesheet" href="styles/animate.css">
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 </head>
@@ -24,9 +29,37 @@
   your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<!-- Add your site or application content here -->
+
+<!--  Header Section  -->
+<header>
+  <div class="container">
+    <div class="logo pull-left animated wow fadeInLeft">
+      <img src="images/logo_nav.png" alt="" title="">
+    </div>
+
+
+    <nav class="pull-left">
+      <ul class="list-unstyled">
+        <li class="animated wow fadeInLeft" data-wow-delay="0s"><a href="#/">Startseite</a></li>
+        <li class="animated wow fadeInLeft" data-wow-delay=".1s"><a href="#/about">Impressum</a></li>
+      </ul>
+    </nav>
+
+    <!-- div class="social pull-right">
+      <ul class="list-unstyled">
+        <li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="#"><img src="img/facebook.png" alt="" title=""></a></li>
+        <li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt="" title=""></a></li>
+        <li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt="" title=""></a></li>
+      </ul>
+    </div -->
+
+    <span class="burger_icon">menu</span>
+  </div>
+</header>
+<!--  End Header Section  -->
+<!-- Add your site or application content here>
 <div class="header">
-  <div class="navbar navbar-default" role="navigation">
+  <div class="navbar navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
 
@@ -52,20 +85,35 @@
       </div>
     </div>
   </div>
-</div>
+</div-->
 
 <!-- Disabled container div to make jumbotron fill full width of screen -->
-<div class="container">
-  <div ng-view=""></div>
-</div>
+<!--div class="container"-->
+<div ng-view=""></div>
+<!-- /div-->
 
-<div class="footer">
+<!--div class="footer">
   <div class="container">
     <ul class="nav nav-pills">
       <li role="presentation"><a href="#/about">Impressum</a></li>
     </ul>
   </div>
-</div>
+</div-->
+
+
+<!--  Footer Section  -->
+<footer>
+  <div class="container" style="text-align:center;">
+    <ul class="nav">
+      <li role="presentation"><a href="#/about">Impressum</a></li>
+    </ul>
+  </div>
+  <p class="copyright animated wow fadeIn" data-wow-duration="2s">
+    &copy; 2015 <strong>Carmen Papst</strong></a>.
+    All Rights Reserved
+  </p>
+</footer>
+<!--  End Footer Section  -->
 
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
