@@ -9,9 +9,7 @@
  */
 angular.module('therapiepapstApp')
   .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    this.model = {
+      ustid: 'AT-XXX'
+    };
   });

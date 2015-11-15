@@ -42,11 +42,8 @@ body {
 }
 
 /* Main marketing message and sign up button */
-.jumbotron {
+.landing-page-container {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  background: rgb(200, 200, 200);
-  background: rgba(200, 200, 200, 0.5);
 }
 .jumbotron .btn {
   font-size: 21px;
