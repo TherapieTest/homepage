@@ -51,7 +51,7 @@ angular.module('therapiepapstApp')
       },
       zoom: 18,
     };
-  }.directive('scrollTo', function ($location, $anchorScroll) {
+  }).directive('scrollTo', function ($location, $anchorScroll) {
       return function (scope, element, attrs) {
 
         element.bind('click', function (event) {
@@ -66,4 +66,4 @@ angular.module('therapiepapstApp')
         });
 
       };
-    }));
+    });
