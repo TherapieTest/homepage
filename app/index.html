@@ -41,8 +41,9 @@
 
     <nav class="pull-left">
       <ul class="list-unstyled">
-        <li class="animated wow fadeInLeft" data-wow-delay="0s"><a href="#/" scroll-to="vk">Startseite</a></li>
-        <li class="animated wow fadeInLeft" data-wow-delay=".1s"><a href="#/#map" roll-to="map" container-id="map">Map</a></li>
+        <li class="animated wow fadeInLeft" data-wow-delay="0s"><a href="#/" smooth-scroll target="vk">Startseite</a></li>
+        <li class="animated wow fadeInLeft" data-wow-delay=".1s"><a href="" scroll-to="map" container-id="map">Map</a></li>
+        <li class="animated wow fadeInLeft" data-wow-delay=".2s"><a href="" smooth-scroll target="map" offset="10">Scroll to Target</a></li>
         <li class="animated wow fadeInLeft" data-wow-delay=".1s"><a href="#/about">Impressum</a></li>
       </ul>
     </nav>
@@ -131,6 +132,7 @@
 
 <!-- build:js(.) scripts/vendor.js -->
 <!-- bower:js -->
+<script src="bower_components/es5-shim/es5-shim.js"></script>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
@@ -145,6 +147,8 @@
 <script src="bower_components/lodash/lodash.js"></script>
 <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
 <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
+<script src="bower_components/json3/lib/json3.js"></script>
+<script src="bower_components/angular-smoothscroll/dist/scripts/bb15da28.scripts.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 

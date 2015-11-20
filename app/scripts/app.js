@@ -18,6 +18,7 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
+    'angularSmoothscroll',
     'uiGmapgoogle-maps'
   ])
   .config(function ($routeProvider) {
