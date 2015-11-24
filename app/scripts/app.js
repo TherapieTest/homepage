@@ -21,7 +21,7 @@ angular
     'angularSmoothscroll',
     'uiGmapgoogle-maps'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -36,4 +36,6 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+    // use the HTML5 History API
+    $locationProvider.html5Mode(true);
   });
