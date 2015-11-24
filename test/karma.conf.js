@@ -39,6 +39,7 @@ module.exports = function(config) {
       'bower_components/angular-google-maps/dist/angular-google-maps.js',
       'bower_components/json3/lib/json3.js',
       'bower_components/angular-smoothscroll/dist/scripts/bb15da28.scripts.js',
+      'bower_components/wow/dist/wow.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",
