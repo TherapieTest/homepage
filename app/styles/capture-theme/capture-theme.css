@@ -32,11 +32,11 @@
 /*		Fonts		*/
 @font-face {
     font-family: 'open_regular';
-    src: url('../bower_components/webfont-opensans/fonts/opensans-regular-webfont.eot');
-    src: url('../bower_components/webfont-opensans/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../bower_components/webfont-opensans/fonts/opensans-regular-webfont.woff') format('woff'),
-         url('../bower_components/webfont-opensans/fonts/opensans-regular-webfont.ttf') format('truetype'),
-         url('../bower_components/webfont-opensans/fonts/opensans-regular-webfont.svg#LatoRegular') format('svg');
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.woff') format('woff'),
+         url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans-regular-webfont.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -45,11 +45,11 @@
 
 @font-face {
     font-family: 'open_bold';
-    src: url('../bower_components/webfont-opensans/fonts/opensans-bold-webfont.eot');
-    src: url('../bower_components/webfont-opensans/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../bower_components/webfont-opensans/fonts/opensans-bold-webfont.woff') format('woff'),
-         url('../bower_components/webfont-opensans/fonts/opensans-bold-webfont.ttf') format('truetype'),
-         url('../bower_components/webfont-opensans/fonts/opensans-bold-webfont.svg#LatoRegular') format('svg');
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -58,11 +58,11 @@
 
 @font-face {
     font-family: 'open_semibold';
-    src: url('../bower_components/webfont-opensans/fonts/opensans-semibold-webfont.eot');
-    src: url('../bower_components/webfont-opensans/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../bower_components/webfont-opensans/fonts/opensans-semibold-webfont.woff') format('woff'),
-         url('../bower_components/webfont-opensans/fonts/opensans-semibold-webfont.ttf') format('truetype'),
-         url('../bower_components/webfont-opensans/fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    src: url('fonts/opensans-semibold-webfont.eot');
+    src: url('fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -78,7 +78,7 @@
 
 /*		General CSS		*/
 body{
-	background: #faf9f9;
+  background: #FFFFFF;
 	padding: 0px;
 	margin: 0px;
 }
