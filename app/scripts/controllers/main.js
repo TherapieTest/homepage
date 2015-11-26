@@ -27,7 +27,7 @@ angular.module('therapiepapstApp')
         },
         options: {
           //icon: 'favicon.ico',
-          //icon: 'images/logo.png',
+          icon: 'images/marker.svg',
           title: 'Therapie Papst - Praxis'
         }
       },
@@ -39,6 +39,12 @@ angular.module('therapiepapstApp')
         //mapTypeId: this.map.mapTypeIdWorkaround,
         //mapTypeId: 'google.maps.MapTypeId.SATELLITE',
         mapTypeControl: true,
+        draggable: false,
+        disableDefaultUI: true,
+        zoomControl: true,
+        scrollwheel: false,
+        minZoom: 12,
+        maxZoom: 17,
         styles: [
           {
             featureType: 'poi',
@@ -49,7 +55,8 @@ angular.module('therapiepapstApp')
           }
         ]
       },
-      zoom: 18,
+
+      zoom: 15,
     };
   }).directive('scrollTo', function ($location, $anchorScroll) {
       return function (scope, element, attrs) {
