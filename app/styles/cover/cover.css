@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #FFFFFF;
 }
 
 /* Custom default button */
@@ -15,8 +15,8 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 
@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   /*background-color: #333;*/
-  background: #FFFFFF url(../../images/bg5.gif) no-repeat center center scroll;
+  background: #FFFFFF url(../../images/logo.svg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
