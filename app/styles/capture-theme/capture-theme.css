@@ -1,5 +1,3 @@
-
-
 /*		General CSS		*/
 body{
   background: #FFFFFF;
@@ -17,14 +15,6 @@ a:focus{
 }
 
 
-
-
-
-
-
-
-
-
 /*		Header 		*/
 
 header{
@@ -33,11 +23,6 @@ header{
 	width: 100%;
 	height: 130px;
 	z-index: 99;
-/*background-color: #41c17d;
-	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);*/
   background-color: #7dcff4;
   background-image: -moz-linear-gradient(bottom, #74b4d1 0%, #74b4d1 0.27%, #72c7ed 99.46%, #72c7ed 100%);
   background-image: -o-linear-gradient(bottom, #74b4d1 0%, #74b4d1 0.27%, #72c7ed 99.46%, #72c7ed 100%);
@@ -48,34 +33,6 @@ header{
 header .logo{
 	display: table-cell;
 	margin: 45px 100px 0 0;
-}
-
-header .burger_icon{
-	display: none;
-	float: right;
-	background: #ffffff;
-	padding: 5px 10px;
-	text-transform: uppercase;
-
-	color: #43b779;
-	font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
-	font-size: 14px;
-
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
-
-	margin: 45px 10px 0 0;
-}
-
-header .burger_icon:hover{
-	cursor: pointer;
-}
-
-header .burger_icon.active{
-	/*background: #359663;*/
-  background: #7dcff4;
-	color: #ffffff;
 }
 
 header nav{
@@ -122,14 +79,6 @@ header .social li{
 header .social li:first-child{
 	margin: 0;
 }
-
-
-
-
-
-
-
-
 
 
 /*		Hero section 		*/
@@ -204,10 +153,6 @@ a.app_store_btn{
 	background: url('../img/play.png') no-repeat;
 }
 
-.iphone_icon{
-	background: url('../img/iphone_app.png') no-repeat;
-}
-
 .android_icon{
 	background: url('../img/android_app.png') no-repeat;
 }*/
@@ -273,19 +218,6 @@ a.app_link{
     height: 100%;
     z-index: 9999;
 }
-
-/*.close_video{
-    text-decoration: none;
-    position: absolute;
-    width: 38px;
-    height: 38px;
-    top: 50px;
-    right: 50px;
-    background: url('../img/close_video.png') no-repeat;
-    z-index: 9999;
-}*/
-
-
 
 
 
@@ -427,11 +359,6 @@ a.app_link{
 .app_features{
 	width: 100%;
 	padding: 100px 0 20px 0;
-	/*background-color: #41c17d;
-  background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-  background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-  background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-  background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);*/
   background-color: #7dcff4;
 	background-image: -moz-linear-gradient(bottom, #74b4d1 0%, #74b4d1 0.27%, #72c7ed 99.46%, #72c7ed 100%);
 	background-image: -o-linear-gradient(bottom, #74b4d1 0%, #74b4d1 0.27%, #72c7ed 99.46%, #72c7ed 100%);
@@ -580,10 +507,6 @@ a.app_link{
 	width: 100%;
 	padding: 100px 0;
 	text-align: center;
-/*background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);*/
   background-image: -moz-linear-gradient(bottom, #74b4d1 0%, #74b4d1 0.27%, #72c7ed 99.46%, #72c7ed 100%);
   background-image: -o-linear-gradient(bottom, #74b4d1 0%, #74b4d1 0.27%, #72c7ed 99.46%, #72c7ed 100%);
   background-image: -webkit-linear-gradient(bottom, #74b4d1 0%, #74b4d1 0.27%, #72c7ed 99.46%, #72c7ed 100%);
@@ -729,7 +652,6 @@ footer .copyright a{
 
 @media (max-width: 767px) {
 
-
 	/*		Header 		*/
 	header .logo{
 		margin-right: 0;
@@ -811,10 +733,6 @@ footer .copyright a{
 	.featured_on ul li{
 		margin-bottom: 25px!important;
 	}
-
-
-
-
 
 
 	/*		About Section 		*/
