@@ -24,10 +24,10 @@ a:hover {
  * Base structure
  */
 
-html,
+/*html,
 body {
   height: 100%;
-  /*background-color: #333;*/
+  /!*background-color: #333;*!/
   background: #FFFFFF url('../../images/cover/logo.svg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -37,8 +37,8 @@ body {
 body {
   color: #757171;
   text-align: center;
-  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
-}
+  /!*text-shadow: 0 1px 3px rgba(0,0,0,.5);*!/
+}*/
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
