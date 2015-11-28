@@ -6,19 +6,71 @@
 }
 
 body {
-  padding: 0px;
-  padding-top: 130px;
+  padding: 0;
+  padding-top: 0px;
+}
+
+.nav-papst {
+  background-color: #7dcff4;
+  border-style: none;
+}
+
+.nav-papst .navbar-collapse, .navbar-default .navbar-form {
+  border-style: none;
+}
+
+.nav-papst .logo {
+  padding-left: 15px;
+  margin-right: 50px;
+}
+
+.nav-papst .navbar-nav {
+  margin: 5px -15px 0px -15px;
+}
+
+
+.nav-papst  .navbar-nav  li a{
+  color: #ffffff;
+  font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  transition: all .2s linear;
+  -o-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+}
+
+.nav-papst  .navbar-nav  li a:hover,
+.nav-papst  .navbar-nav  li a:focus{
+  text-decoration: none;
+  color: #a5efef;
+}
+
+.nav-papst .navbar-toggle {
+  border-color: #7dcff4;}
+
+.nav-papst .navbar-toggle:hover,
+.nav-papst .navbar-toggle:focus{
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .nav-papst .navbar-nav  li:first-child a {
+     border-top: 1px solid white;
+   }
+  .nav-papst .navbar-nav  li a {
+    border-bottom: 1px solid white;
+  }
 }
 
 .angular-google-map-container {
   height: 500px;
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* filter: gray; /* IE6-9 */
+  /*-webkit-filter: grayscale(0.4);
+  -moz-filter: grayscale(0.4);
+  -ms-filter: grayscale(0.4);
+  -o-filter: grayscale(0.4);
+  filter: grayscale(0.4); */
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

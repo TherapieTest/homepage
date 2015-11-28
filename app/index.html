@@ -36,33 +36,42 @@
 
 
 <!--  Header Section  -->
-<header class="navbar-fixed-top">
-  <div class="container">
-    <div class="logo pull-left animated fadeInLeft">
-      <a href="#/" scroll-to="top"><img src="images/logo_nav.png" alt="" title="Carmen Papst"></a>
+
+<nav class="navbar navbar-default navbar-fixed-top nav-papst">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="logo pull-left animated fadeInLeft">
+        <a href="#/" scroll-to="top"><img src="images/logo_nav.png" alt="" title="Carmen Papst"></a>
+      </div>
     </div>
 
-
-    <nav class="pull-left">
-      <ul class="list-unstyled">
-        <li class="animated fadeInLeft" data-wow-delay=".0s"><a href="" smooth-scroll target="vk" offset="130">Top</a></li>
-        <li class="animated fadeInLeft" data-wow-delay=".1s"><a href="" smooth-scroll target="map" offset="130">Anfahrt</a></li>
-        <li class="animated fadeInLeft" data-wow-delay=".2s"><a href="#/about">Impressum</a></li>
-      </ul>
-    </nav>
-
-    <div class="social pull-right">
-      <ul class="list-unstyled">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <nav>
+        <ul class="nav navbar-nav">
+          <li class="animated fadeInLeft" data-wow-delay=".0s"><a href="" smooth-scroll target="vk" offset="130">Top</a></li>
+          <li class="animated fadeInLeft" data-wow-delay=".1s"><a href="" smooth-scroll target="map" offset="130">Anfahrt</a></li>
+          <li class="animated fadeInLeft" data-wow-delay=".2s"><a href="#/about">Impressum</a></li>
+        </ul>
+      </nav>
+      <!--ul class="list-unstyled pull-right">
         <li class="animated fadeInRight" data-wow-delay=".2s"><img src="images/logo.png" alt="" title=""></li>
         <!--li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt="" title=""></a></li>
         <li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt="" title=""></a></li-->
-      </ul>
+      </ul-->
     </div>
-
-    <span class="burger_icon">menu</span>
+    <!-- /.navbar-collapse -->
   </div>
-</header>
-<!--  End Header Section  -->
+  <!-- /.container-fluid -->
+</nav>
 
 
 <div class="site-wrapper" id="top">
@@ -72,11 +81,13 @@
     <div class="cover-container">
 
       <!--div class="inner cover"-->
-        <h1 class="cover-heading">Cover.</h1>
-        <p class="text-center">Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus
-           erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent
-           tincidunt mi orci in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et
-           malesuada fames turpis egestas</p>
+      <h1 class="cover-heading">Cover.</h1>
+
+      <p class="text-center">Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum.
+        Aliquam luctus
+        erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent
+        tincidunt mi orci in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et
+        malesuada fames turpis egestas</p>
 
       <!--/div-->
 
@@ -91,10 +102,6 @@
   </div>
 
 </div>
-
-
-
-
 
 
 <!-- Disabled container div to make jumbotron fill full width of screen -->
