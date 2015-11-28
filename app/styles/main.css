@@ -22,6 +22,7 @@ body {
   padding: 0;
   padding-top: 0px;
   text-align: center;
+  color: #757171;
 }
 
 .nav-papst {
@@ -67,6 +68,10 @@ body {
   background-color: #ffffff;
 }
 
+.cover-content-middle {
+  vertical-align: middle;
+}
+
 @media (max-width: 767px) {
   .nav-papst .navbar-nav  li:first-child a {
      border-top: 1px solid white;
@@ -77,7 +82,7 @@ body {
 }
 
 .angular-google-map-container {
-  height: 500px;
+  height: 300px;
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
   /* filter: gray; /* IE6-9 */
   /*-webkit-filter: grayscale(0.4);
@@ -156,5 +161,17 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+
+
+  .angular-google-map-container {
+    height: 600px;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    /* filter: gray; /* IE6-9 */
+    /*-webkit-filter: grayscale(0.4);
+    -moz-filter: grayscale(0.4);
+    -ms-filter: grayscale(0.4);
+    -o-filter: grayscale(0.4);
+    filter: grayscale(0.4); */
   }
 }
