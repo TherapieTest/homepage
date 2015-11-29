@@ -16,7 +16,7 @@
 
                     $('html, body').animate({
                         scrollTop: targetLocation.offset().top
-                    }, 800);
+                    }, 1000);
 
                     return false;
                 });
