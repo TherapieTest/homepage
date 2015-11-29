@@ -4,6 +4,10 @@
 
         return {
             restrict: 'A',
+            scope: {
+              duration: "@",
+              offset: "@"
+            },
             link: function (scope, element) {
                 console.log('[smoothScrol] init');
 
@@ -15,10 +19,10 @@
                         targetLocation = $("a[name=" + targetHref.slice(1) + "]");
 
                     $('html, body').animate({
-                        scrollTop: targetLocation.offset().top
+                        scrollTop: targetLocation.offset().top-scope.offset
                     }, 1000);
 
-                    return false;
+                    return true;
                 });
             }
         }

@@ -1,6 +1,6 @@
 {
   "name": "tp-smooth-scroll",
-  "version": "0.9.1",
+  "version": "0.9.5",
   "authors": [
     "Therapie Papst"
   ],
@@ -24,13 +24,13 @@
     "tests"
   ],
   "homepage": "https://github.com/TherapiePapst/tp-smooth-scroll",
-  "_release": "0.9.1",
+  "_release": "0.9.5",
   "_resolution": {
     "type": "version",
-    "tag": "v0.9.1",
-    "commit": "444de60ee94718566a56957d2b1eaf8f46ec0e55"
+    "tag": "v0.9.5",
+    "commit": "df7ef838a20d5c627a3c4797af517ba7193d7dd0"
   },
   "_source": "git://github.com/TherapiePapst/tp-smooth-scroll.git",
-  "_target": "0.9.1",
+  "_target": "0.9.5",
   "_originalSource": "tp-smooth-scroll"
 }
