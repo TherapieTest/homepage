@@ -14,9 +14,9 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
   <!-- bower:css -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
-  <link rel="stylesheet" href="bower_components/webfont-opensans/css/stylesheet.css"/>
-  <link rel="stylesheet" href="bower_components/animate.css/animate.css"/>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/webfont-opensans/css/stylesheet.css" />
+  <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
@@ -49,7 +49,8 @@
         <span class="icon-bar"></span>
       </button>
       <div class="logo pull-left animated fadeInLeft">
-        <a href="#/" scroll-to="top"><img src="images/logo_nav.png" alt="" title="Carmen Papst"></a>
+        <!--<a href="#/" scroll-to="top"><img src="images/logo_nav.png" alt="" title="Carmen Papst"></a>-->
+        <a href="" smooth-scroll-jquery><img src="images/logo_nav.png" alt="" title="Carmen Papst"></a>
       </div>
     </div>
 
@@ -57,9 +58,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <nav>
         <ul class="nav navbar-nav">
-          <li class="animated fadeInLeft" data-wow-delay=".0s"><a href="" smooth-scroll target="vk" offset="130">Top</a></li>
-          <li class="animated fadeInLeft" data-wow-delay=".1s"><a href="" smooth-scroll target="map" offset="130">Anfahrt</a></li>
-          <li class="animated fadeInLeft" data-wow-delay=".2s"><a href="#/about">Impressum</a></li>
+          <li class="animated fadeInLeft" data-wow-delay=".0s"><a href="" smooth-scroll-jquery  offset="0">Start</a></li>
+          <li class="animated fadeInLeft" data-wow-delay=".1s"><a href="" smooth-scroll-jquery target="map" speed="200">Anfahrt</a></li>
+          <li class="animated fadeInLeft" data-wow-delay=".2s"><a href="" smooth-scroll-jquery target="about" speed="10">Impressum</a></li>
+          <!--<li class="animated fadeInLeft" data-wow-delay=".2s"><a href="#/about">Impressum</a></li>-->
         </ul>
       </nav>
       <!--ul class="list-unstyled pull-right">
@@ -119,7 +121,7 @@
 
 
 <!--  Footer Section  -->
-<footer>
+<footer id="about">
   <!--div class="container" style="text-align:center;">
     <ul class="nav">
       <li role="presentation"><a href="/about">Impressum</a></li>
