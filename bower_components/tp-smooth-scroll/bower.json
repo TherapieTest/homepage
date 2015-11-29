@@ -1,17 +1,17 @@
 {
   "name": "tp-smooth-scroll",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "authors": [
     "Therapie Papst"
   ],
   "description": "Adapted ng-smooth-scroll by Peter Piekarczyk (peterpiekarczyk@gmail.com to enable customized scroll duration",
   "main": "ng-smooth-scroll.js",
   "license": "Apache",
-  "dependencies" : {
-    "angular" : null,
-    "jquery" : null
+  "dependencies": {
+    "angular": null,
+    "jquery": null
   },
-  "keywords" : [
+  "keywords": [
     "smooth",
     "scroll",
     "duration"
