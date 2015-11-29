@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 </head>
-<body ng-app="therapiepapstApp">
+<body ng-app="therapiepapstApp" ng-smooth-scroll>
 <!--[if lte IE 8]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
   your browser</a> to improve your experience.</p>
@@ -36,7 +36,7 @@
 
 
 <!--  Header Section  -->
-
+<a name='atop'/>
 <nav class="navbar navbar-default navbar-fixed-top nav-papst">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,7 +50,7 @@
       </button>
       <div class="logo pull-left animated fadeInLeft">
         <!--<a href="#/" scroll-to="top"><img src="images/logo_nav.png" alt="" title="Carmen Papst"></a>-->
-        <a href="" smooth-scroll-jquery><img src="images/logo_nav.png" alt="" title="Carmen Papst"></a>
+        <a href="#atop" class='scroll-to'><img src="images/logo_nav.png" alt="" title="Carmen Papst"></a>
       </div>
     </div>
 
@@ -58,10 +58,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <nav>
         <ul class="nav navbar-nav">
-          <li class="animated fadeInLeft" data-wow-delay=".0s"><a href="" smooth-scroll-jquery  offset="0">Start</a></li>
-          <li class="animated fadeInLeft" data-wow-delay=".1s"><a href="" smooth-scroll-jquery target="map" speed="200">Anfahrt</a></li>
-          <li class="animated fadeInLeft" data-wow-delay=".2s"><a href="" smooth-scroll-jquery target="about" speed="10">Impressum</a></li>
-          <!--<li class="animated fadeInLeft" data-wow-delay=".2s"><a href="#/about">Impressum</a></li>-->
+          <li class="animated fadeInLeft" data-wow-delay=".3s"><a href="#atop" class='scroll-to'>Start</a></li>
+          <li class="animated fadeInLeft" data-wow-delay=".3s"><a href="#amap" class='scroll-to'>Anfahrt</a></li>
+          <li class="animated fadeInLeft" data-wow-delay=".3s"><a href="#aabout" class='scroll-to'>Impressum</a></li>
         </ul>
       </nav>
       <!--ul class="list-unstyled pull-right">
@@ -121,6 +120,7 @@
 
 
 <!--  Footer Section  -->
+<a name='aabout'/>
 <footer id="about">
   <!--div class="container" style="text-align:center;">
     <ul class="nav">
@@ -163,7 +163,6 @@
 
 <!-- build:js(.) scripts/vendor.js -->
 <!-- bower:js -->
-<script src="bower_components/es5-shim/es5-shim.js"></script>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
@@ -178,9 +177,8 @@
 <script src="bower_components/lodash/lodash.js"></script>
 <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.js"></script>
 <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
-<script src="bower_components/json3/lib/json3.js"></script>
-<script src="bower_components/angular-smoothscroll/dist/scripts/bb15da28.scripts.js"></script>
 <script src="bower_components/wow/dist/wow.js"></script>
+<script src="bower_components/ng-smooth-scroll/ng-smooth-scroll.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
