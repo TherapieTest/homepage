@@ -370,7 +370,7 @@ a.app_link{
 }
 
 .app_features p{
-	color: #e0f7eb;
+	color: #ffffff;
 	font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	margin: 30px 0 0 0;
@@ -378,13 +378,8 @@ a.app_link{
 }
 
 .app_features .details{
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
-
-
-
-
-
 
 
 
@@ -416,9 +411,9 @@ a.app_link{
 
 .testimonials .testimonials_list blockquote p {
 	font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	margin-bottom: 50px;
-	line-height: 36px;
+	font-size: 16px;
+	/*margin-bottom: 50px;*/
+	line-height: 1.8em;
 }
 
 .testimonials .testimonials_list blockquote footer:before,
@@ -633,12 +628,6 @@ footer .copyright{
 footer .copyright a{
 	color: #565555;
 }
-
-
-
-
-
-
 
 
 

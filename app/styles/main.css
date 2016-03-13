@@ -71,7 +71,7 @@ blockquote {
 .nav-papst  .navbar-nav  li a:hover,
 .nav-papst  .navbar-nav  li a:focus{
   text-decoration: none;
-  color: #a5efef;
+  color: #757171;
 }
 
 .nav-papst .navbar-toggle {
@@ -124,7 +124,7 @@ blockquote {
   font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin-bottom: 45px;
-  line-height: 32px;
+  line-height: 1.8em;
 }
 
 .therapist .features_list ul{
