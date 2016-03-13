@@ -370,6 +370,11 @@ module.exports = function (grunt) {
           src: ['**/*']
         }, {
           expand: true,
+          cwd: '<%= yeoman.app %>/dns',
+          dest: '<%= yeoman.dist %>',
+          src: ['**/*']
+}       , {
+          expand: true,
           cwd: 'bower_components/bootstrap/dist',
           src: 'fonts/*',
           dest: '<%= yeoman.dist %>'
