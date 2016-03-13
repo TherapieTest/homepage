@@ -35,6 +35,10 @@ body {
   color: #757171;
 }
 
+blockquote {
+  border-left: none;
+}
+
 .nav-papst {
   background-color: #7dcff4;
   border-style: none;
@@ -208,7 +212,7 @@ footer {
   /*padding-top: 19px;*/
   padding: 0px 0;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  /*border-top: 1px solid #e5e5e5;*/
 }
 
 .container-narrow > hr {
