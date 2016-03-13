@@ -122,6 +122,12 @@ body {
   font-weight: bold;
 }
 
+.cover a,
+.cover a:focus,
+.cover a:hover{
+  color: #767272
+}
+
 
 /*
  * Footer
