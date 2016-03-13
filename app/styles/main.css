@@ -279,4 +279,12 @@ footer {
   .nav-papst .navbar-nav  li a {
     border-bottom: 1px solid white;
   }
+
+  .cover blockquote {
+    font-size: 14px;
+  }
+
+  .cover h1 {
+    font-size: 24px;
+  }
 }
