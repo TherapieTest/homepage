@@ -361,6 +361,17 @@ a.app_link{
 	background-image: linear-gradient(bottom, #74b4d1 0%, #74b4d1 0.27%, #72c7ed 99.46%, #72c7ed 100%);
 }
 
+.app_features.with-heading{
+  padding: 20px 0 20px 0;
+}
+
+
+.app_features h3{
+  color: #fff;
+  font-family: "OpenSansSemibold", Helvetica, Arial, sans-serif;
+  padding-bottom: 30px;
+}
+
 .app_features h1{
 	color: #fff;
 	font-family: "OpenSansSemibold", Helvetica, Arial, sans-serif;
