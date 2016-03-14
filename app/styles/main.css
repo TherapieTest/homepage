@@ -39,6 +39,10 @@ blockquote {
   border-left: none;
 }
 
+address {
+  margin-bottom: 0px;
+}
+
 .nav-papst {
   background-color: #7dcff4;
   border-style: none;
