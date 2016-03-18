@@ -111,6 +111,7 @@ address {
 
 .therapist .features_list{
   /*:margin-left: 50px; */
+  text-align: left;
 }
 
 .therapist .features_list h1{
@@ -133,6 +134,7 @@ address {
 
 .therapist .features_list ul{
   margin-bottom: 30px;
+
 }
 
 .therapist .features_list ul li{
@@ -143,40 +145,38 @@ address {
   font-size: 16px;
   line-height: 44px;
   text-indent: 25px;
-
   transition: all .2s linear;
   -o-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -webkit-transition: all .2s linear;
 }
-/*
-.about .features_list ul li.camera_icon{
+.therapist .features_list ul li span{
+  display: inline-block;
+}
+
+.therapist .features_list ul li.camera_icon{
   background: url('../../images/capture-theme/icon1.png') no-repeat;
   background-position: 0 15px;
 }
 
-.about .features_list ul li.video_icon{
+.therapist .features_list ul li.video_icon{
   background: url('../../images/capture-theme/icon2.png') no-repeat;
   background-position: 0 15px;
 }
 
-.about .features_list ul li.eye_icon{
+.therapist .features_list ul li.eye_icon{
   background: url('../../images/capture-theme/icon3.png') no-repeat;
   background-position: 0 14px;
 }
 
-.about .features_list ul li.pic_icon{
+.therapist .features_list ul li.pic_icon{
   background: url('../../images/capture-theme/icon4.png') no-repeat;
   background-position: 0 14px;
 }
 
-.about .features_list ul li.loc_icon{
+.therapist .features_list ul li.loc_icon{
   background: url('../../images/capture-theme/icon5.png') no-repeat;
   background-position: 3px 13px;
-} */
-
-.therapist .features_list ul li span{
-  display: inline-block;
 }
 
 
@@ -290,5 +290,20 @@ footer {
 
   .cover h1 {
     font-size: 24px;
+  }
+
+  .therapist .features_list {
+    text-align: center;
+    margin: 0;
+  }
+
+  .therapist .features_list ul li{
+    text-indent: 0;
+    background: transparent!important;
+    margin-bottom: 20px;
+  }
+
+  .therapist .features_list ul li:last-child{
+    margin: 0;
   }
 }
