@@ -43,6 +43,10 @@ address {
   margin-bottom: 0px;
 }
 
+h3 {
+  font-family: "OpenSansSemibold", Helvetica, Arial, sans-serif;
+}
+
 .nav-papst {
   background-color: #7dcff4;
   border-style: none;
@@ -124,7 +128,7 @@ address {
   word-break: break-word;
 }
 
-.therapist .features_list h2{
+.therapist .features_list h2,h3{
   text-align: center;
   padding-bottom: 30px;
 }
