@@ -155,28 +155,33 @@ address {
 }
 
 .therapist .features_list ul li.camera_icon{
-  background: url('../../images/capture-theme/icon1.png') no-repeat;
+  background: url('../images/capture-theme/icon1.png') no-repeat;
   background-position: 0 15px;
 }
 
 .therapist .features_list ul li.video_icon{
-  background: url('../../images/capture-theme/icon2.png') no-repeat;
+  background: url('../images/capture-theme/icon2.png') no-repeat;
   background-position: 0 15px;
 }
 
 .therapist .features_list ul li.eye_icon{
-  background: url('../../images/capture-theme/icon3.png') no-repeat;
+  background: url('../images/capture-theme/icon3.png') no-repeat;
   background-position: 0 14px;
 }
 
 .therapist .features_list ul li.pic_icon{
-  background: url('../../images/capture-theme/icon4.png') no-repeat;
+  background: url('../images/capture-theme/icon4.png') no-repeat;
   background-position: 0 14px;
 }
 
 .therapist .features_list ul li.loc_icon{
-  background: url('../../images/capture-theme/icon5.png') no-repeat;
+  background: url('../images/capture-theme/icon5.png') no-repeat;
   background-position: 3px 13px;
+}
+
+.therapist .features_list ul li.education_icon{
+  background: url('../images/glyphicons/education2.png') no-repeat;
+  background-position: 2px 14px;
 }
 
 

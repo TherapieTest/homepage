@@ -264,6 +264,7 @@ module.exports = function (grunt) {
           '<%= yeoman.dist %>/images',
           '<%= yeoman.dist %>/styles',
           '<%= yeoman.dist %>/images/capture-theme',
+          '<%= yeoman.dist %>/images/glyphicons',
         ],
         patterns: {
           js: [[/(images\/[^''""]*\.(png|jpg|jpeg|gif|webp|svg))/g, 'Replacing references to images']],
