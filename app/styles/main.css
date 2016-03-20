@@ -143,13 +143,13 @@ h3 {
 
 .therapist .features_list ul{
   margin-bottom: 30px;
+  color: #6c6c6c;
 
 }
 
 .therapist .features_list ul li{
   display: block;
   position: relative;
-  color: #6c6c6c;
   font-family: "OpenSansSemibold", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 44px;
