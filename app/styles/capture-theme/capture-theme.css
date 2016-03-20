@@ -432,7 +432,8 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote footer:before,
-.testimonials .testimonials_list blockquote footer:after{
+.testimonials .testimonials_list blockquote footer:after,
+.testimonials .testimonials_list blockquote p small:before{
 	content: none;
 }
 
