@@ -194,6 +194,10 @@ h3 {
   background-position: 2px 14px;
 }
 
+.testimonials .testimonials_list blockquote p small{
+  color: #fff;
+}
+
 
 .angular-google-map-container {
   height: 300px;
