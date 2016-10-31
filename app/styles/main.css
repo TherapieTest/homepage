@@ -164,6 +164,11 @@ h3 {
   display: inline-block;
 }
 
+.therapist .features_list ul li span.additionalInfo{
+  display: inline-flex;
+  text-indent: 0px
+}
+
 .therapist .features_list ul li.camera_icon{
   background: url('../images/capture-theme/icon1.png') no-repeat;
   background-position: 0 15px;
