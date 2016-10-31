@@ -166,7 +166,7 @@ h3 {
 
 .therapist .features_list ul li span.additionalInfo{
   display: inline-flex;
-  text-indent: 0px
+  text-indent: 0px;
 }
 
 .therapist .features_list ul li.camera_icon{
