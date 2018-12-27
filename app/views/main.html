@@ -199,12 +199,23 @@
 
 
 <a name='amap'/>
-<div class="div-wrapper animated wow fadeIn" id="map">
-  <ui-gmap-google-map
-    center='main.map.center'
-    zoom='main.map.zoom'
-    options='main.map.options'>
-    <ui-gmap-marker coords="main.map.marker.center" idKey="1" options="main.map.marker.options"/>
-  </ui-gmap-google-map>
-</div>
-
+<div class="div-wrapper animated wow fadeIn angular-google-map-container" id="map"></div>
+<script>
+  var map;
+  function initMap() {
+    var praxis = {lat: 48.315545, lng: 14.280145};
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: praxis,
+      zoom: 15,
+      zoomControl: true,
+      mapTypeControl: false,
+      scaleControl: false,
+      streetViewControl: false,
+      rotateControl: false,
+      fullscreenControl: false
+    });
+    var marker = new google.maps.Marker({position: praxis, map: map, icon:'images/marker.png'});
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqzWxzOV0y8_-xctW51ZtKEnuWOl4WbFQ&callback=initMap"
+        async defer></script>

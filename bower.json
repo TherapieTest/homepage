@@ -15,7 +15,6 @@
     "angular-ui": "~0.4.0",
     "lodash": "~3.10.1",
     "angular-simple-logger": "~0.1.5",
-    "angular-google-maps": "~2.2.1",
     "webfont-opensans": "~0.0.2",
     "wow": "1.1.2",
     "animate.css": "3.4.0",
